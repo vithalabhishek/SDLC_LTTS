@@ -1,0 +1,74 @@
+1-	Introduction
+i.	Purpose
+The purpose of the Software Requirements Specification is providing a complete description of all the functions and specifications of the ATM.
+ii.	Scope
+The system enables users to accomplish called for bank account services via automated teller machines (TMs) and to create a comprehensible and convenient for bank clients. Individuals will be identified by a card and Pin. It will allow bank customers to withdraw amount, look over their balance amount, change pin, generate new pin and do card-less withdrawal. The data will be held in a bank database.
+iii.	References
+
+iv.	Overview 
+This document contains all of the software requirement specifics. The Overall Description section, of this document gives an overview of the functionality of the product. It contains a general description of the types of users who will be using our application, how it is going to work, and what technologies we are using to make it work. It recounts the operating environment and features. Following sections will cover detail of each of the system functions and steps in full for the software developers’ assistance. It describes the informal requirements and is used to establish a context for the technical requirements specifications. The following sections are cross-referenced by topic and describe the same software product in its entirety, but are intended for different audiences.
+
+2-Comprehensive Description 
+The ATM system encompasses various GUI menus, card reader, pin pad and a printer to produce a receipt. It provides secure access to the account of a customer. An ATM database stores the following information. 
+•	Customers Details
+It includes the individuals name, pin number along with the account number, address, the number of times card’s used for withdrawal etc.
+
+•	Cash details
+         It includes the details of available cash in the ATM.
+
+•	Bank Details
+         It includes bank codes and 
+
+i.	Operating Environment 
+•	Distributed Database
+•	Client/server System
+•	Operating system: Windows.
+•	SQL
+
+ii.	Product Features
+•	Must be capable of storing tasks and generating errors. 
+•	Must have a system that communicates with the bank 
+•	Must contain an easy interface with little to no learning curve.
+
+
+iii.	Use classes and characteristics
+
+
+3-Functional Requirements
+User Requirements
+•	View payable Interest
+•	View Loan EMI
+•	View total payable amount (interest + Principal)
+•	View Documents required
+•	Upload Documents
+•	Documents Verification
+
+4- Non Functional Requirements
+i.	Reliable-
+•	The data transmission process shall confirm the receiving terminal is in a ready state prior to the start of transmission.
+•	The Personal and home loan probability of failure on demand (POFOD) shall be 0.001 (1 out of 1000) when entered invalid data.
+ii.	Usability-
+•	The new product shall be handy to people of any age group.
+•	The product shall be self‐explanatory and intuitive such that an individual shall be able to calculate a payable amount
+•	within 2 minutes of encountering the product for the first time. 
+•	The new policy management system shall be evaluated by 90 percent of the user community to be at least as easy to
+•	use as the existing system.
+•	People with no training and no understanding of English shall be able to use the product. 
+•	The system shall be useable by program developers after a few weeks of training.
+ 
+iii.	Availability-
+•	The Personal and Home Loan Calculator shall be available for use all the time.
+•	Unless the system is non‐operational, the system shall present a user with notification informing them that the
+•	system is unavailable.
+
+5- External Interfaces Required
+i.	System Evolution
+ii.	Supplementary Evolution
+
+
+
+
+
+
+
+
