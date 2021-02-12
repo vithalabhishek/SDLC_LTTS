@@ -1,0 +1,26 @@
+# FEASIBILITY STUDY # 
+
+The main objective of feasibility study is to test the technical, social and economic feasibility of developing a system. This is done before developing a system practically. This is done by investigating the existing system in the area under investigation and generating ideas about the new system. 
+2.1 Technical Feasibility
+The project has a detailed design for the system and all the tools required to build the project are available for free. The assessment of this feasibility must be based on an outline design of the system requirement in terms of input, output, programs, and procedure. 
+The developing system is justified by cost and benefit criteria to ensure that the effort concentrated on project gives best return with maximum efficiency.
+The major factor, which affects the development of a new system, is the cost it would require. Since the	system is developed as a part of our study, there is no manual cost to be spent for the proposed system.
+This project is technically feasible as the problem of using Loan Calculator has been approached and solved before but using a less generic approach.
+The system is being developed in C++ programming language. It provides comprehensive function and libraries to make it user friendly. The report generation is provided easily. The machine configuration also supports this software.
+2.1.1. Visual Studio Code:
+Visual Studio Code is an editor first, and includes the features you need for highly productive source code editing. Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. 
+Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, Typescript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+		
+
+2.2 Operational Feasibility
+The project is operational if all the software and hardware requirements are
+fulfilled. In terms of hardware components, a machine is required which can meet the requirements and has sufficient storage space to execute the code. 
+For Software requirements, C++ support for Visual Studio Code is provided by a Microsoft C++ extension to enable cross-platform C++ development on Windows, Linux, and macOS. Compiler for C++ language using VS Code needs to be downloaded for running the program.
+Since C++ is a popular programming language and easy to use and provides the libraries needed for the project and gives programmers a high level of control over system resources and memory, it becomes a good choice for this project.
+
+
+
+2.3 Economic Feasibility
+Economic evaluation is a vital part of investment appraisal, dealing with factors that can be quantified, measured, and compared in monetary terms (Chen 1996). The results of an economic evaluation are considered with other aspects to make the project investment decision as the proper investment appraisal helps to ensure that the right project is undertaken in a manner that gives it the best chances of success. Management can assess economic feasibility by doing the cost-benefit analysis,
+For construction of the new system, the software is developed on the system with the free resources, so it does not require any extra software or hardware resource.
+It only requires the software requirement. All essential, tools and packages used are all available free of cost and the cost-benefit ratio is always positive.
