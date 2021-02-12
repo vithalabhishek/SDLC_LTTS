@@ -1,7 +1,7 @@
 # SDLC_LTTS
 LTTS TRAINING PROJECT (SDLC)
 
-#Folder Structure
+# Folder Structure
 
 Folder |  Description
 ------------- | -------------
@@ -10,7 +10,7 @@ Folder |  Description
 3 _implementation | All code and documentation
 4 _test_plan | Documents with test plans and procedures
 
-Contributors List
+# Contributors List
 
 Name |  PS No. | Features | Issues Raised | Issues Resolved
 ------------- | -------------
