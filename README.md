@@ -30,4 +30,7 @@ Name |  PS No. | Features | Issues Raised | Issues Resolved
 
 # Low Level Design
 
+## Sequence Diagram 
+![alt text](https://github.com/99003612/SDLC_LTTS/blob/main/SequenceDiagram1.png)
+
 
