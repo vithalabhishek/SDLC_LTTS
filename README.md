@@ -12,13 +12,13 @@ Folder |  Description
 
 # Contributors List
 
-Name |  PS No. | Features | Issues Raised | Issues Resolved
----- | --------|--------- | --------------|------------------
-1) Abhishek Vithal | 99003612||
-2) Kricha Sahu | 9900||
-3) Shaloo Kumari | 99003602||
-4) Kanith | 9900||
-5) Akash Singh |||
+Name                     |  PS No.   | Features                         | Issues Raised       | Issues Resolved
+-------------------------|-----------|----------------------------------|---------------------|---------------------------------
+`1) Abhishek Vithal`     | 99003612  |4 W's and H and Feasibility Study | on design           | design issue is resolved
+`2) Kricha Sahu`         | 99003587  |Software Requirement Specification| on workflow         | workflow issue is reolved
+`3) Shaloo Kumari`       | 99003603  |SWOT Analysis                     | on requirement      | requirement issue is resolved
+`4) Polimera Sai Khanith`| 99003599  |Behavioral Diagram                | on sequence diagram | Sequence Diagram is resolved
+`5) Akash Singh`         | 99003615  |Structural Diagram                | on Class Diagram    | Class Diagram is resolved
 
 # CIBIL Score WorkFlow :
 
@@ -36,5 +36,29 @@ Name |  PS No. | Features | Issues Raised | Issues Resolved
 
 ## Sequence Diagram 
 ![alt text](https://github.com/99003612/SDLC_LTTS/blob/main/SequenceDiagram1.png)
+
+## Test Summary
+
+Name | PS Number | No. of Test Cases | No. of Test Cases Passed | No. of Test Cases not Passed 
+-----|-----------|-------------------|--------------------------|------------------------------
+`1) Abhishek Vithal`     | 99003612  | 4  | 4  | 0
+`2) Kricha Sahu`         | 99003587  | 4  | 4  | 0
+`3) Shaloo Kumari`       | 99003603  | 3  | 3  | 0
+`4) Polimera Sai Khanith`| 99003599  | 3  | 3  | 0
+`5) Akash Singh`         | 99003615  | 3  | 3  | 0
+
+
+
+## Challenges
+
+1. We faced challenges in drawing UML's diagrams.
+2. We faced challenges in unit testing.
+3. We faced challenges in test plan
+4. We faced challenges in makefile
+
+## Learning folder
+1. [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+2. [git inspector](https://github.com/ejwa/gitinspector.git)
+3. [github workflow](https://docs.github.com/en/actions/learn-github-action)
 
 
