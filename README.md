@@ -13,12 +13,21 @@ Folder |  Description
 # Contributors List
 
 Name |  PS No. | Features | Issues Raised | Issues Resolved
-------------- | -------------
+---- | --------|--------- | --------------|------------------
 1) Abhishek Vithal | 99003612||
 2) Kricha Sahu | 9900||
-3) Shaloo Kumari | 9900||
+3) Shaloo Kumari | 99003602||
 4) Kanith | 9900||
 5) Akash Singh |||
 
 # CIBIL Score WorkFlow :
 ![alt text](https://github.com/99003612/SDLC_LTTS/blob/main/CIBIL%20SCORE%20WORKFLOW.png)
+
+# High Level Design
+
+
+
+
+# Low Level Design
+
+
