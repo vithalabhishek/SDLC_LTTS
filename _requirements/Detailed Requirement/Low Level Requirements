@@ -1,0 +1,15 @@
+# Low Level Requirements for Home and Personal Loans:
+
+•	Customer need to set the total loan period in months.
+•	Customer has to set the initial amount.
+•	Customer need to set the initial payment, Loan will be for (initial amount – initial payment)
+•	Calculate the initial loan amount, given: monthly payment, loan period and interest.
+•	Calculate the loan balance after making several payments.
+•	Calculate the loan interest given: (Interest Rate / number of Payments) *Loan principle.
+•	Calculate the number of payments needed to pay a loan.
+•	Calculate the monthly loan payment.
+•	Customer need to set the yearly interest rate.
+•	Customer has to set the elapsed period in months.
+•	Customer need to set fees for opening the loan.
+•	Customer has to set monthly loan payment.
+
