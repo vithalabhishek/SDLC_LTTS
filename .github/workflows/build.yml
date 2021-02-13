@@ -1,18 +1,14 @@
 name: C/C++ CI
-
 on:[push,pull_request] 
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
       
-    - name: Build
-      run: |
-        gcc --version
-        cd _testPlan/
-        g++ code.cpp -o code
-        ls
+      - name: Build
+        run: |
+          gcc --version
+          cd _testPlan/
+          g++ code.cpp -o code
+          ls
