@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to check my code quality
     steps:
-    - name: Check code meets quality standards
-      id: code-inspector
-      uses: codeinspectorio/github-action@master
-      with:
+     - name: Check code meets quality standards
+       id: code-inspector
+       uses: codeinspectorio/github-action@master
+       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         code_inspector_access_key: ${{ secrets.CODE_INSPECTOR_ACCESS_KEY }}
         code_inspector_secret_key: ${{ secrets.CODE_INSPECTOR_SECRET_KEY }}
