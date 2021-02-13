@@ -13,8 +13,8 @@ Folder |  Description
 ------------- | -------------
 1 _requirements | Documents Detailing requirements ad research
 2 _design  | Documents specifying design details
-3 _implementation | All code and documentation
-4 _test_plan | Documents with test plans and procedures
+3 _testPlan | All code and documentation
+4 _testCase | Documents with test plans and procedures
 
 # Contributors List
 
