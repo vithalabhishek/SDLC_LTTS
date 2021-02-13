@@ -7,10 +7,10 @@ jobs:
   runs-on: ubuntu-latest
 
   steps: 
-    - uses: actions/checkout@v2
+   - uses: actions/checkout@v2
     
-    - name: Run Test
-      run: |
+   - name: Run Test
+     run: |
        cd _testPlan
        g++ code.cpp -o code
        ./code
