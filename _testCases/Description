@@ -1,0 +1,25 @@
+TEST PLAN EXPLAINATION:
+
+High Level Test Plan Cases
+ 
+PAN:  The pan pattern should be a total length 10 alphanumericals and first 5 letters should be a UpperCase letters 
+      followed by 4 numbers and 1 Uppercase letter and it should not be greater than 10 charecters of length. Suppose
+      we entered wrongly it will give us invalid.
+ 
+CIBIL SCORE: It will give output "approved" when cibil score range is between 300 and 900 and also we have to enter only
+             numericals. Suppose we entered anything other than numeericals it will give output as invalid.
+            
+Low Level Test Plan Cases
+
+LOAN AMOUNT: Loan amount should be in numercals only otherwise it will give error and it shoud not be zero or less than 
+             zero.
+ 
+INTEREST RATE: We have to give interest rate as a percentage only and it will give error if it is 0 or less than zero.
+               If the interest rate is negative code will show error and ask the user to try again.
+     
+NO.OF YEARS: No.of years should be in positive only if we give negative value then it will produce an error and we also 
+             allowed to give zeo value and it should be in numericals only not alphabets.
+
+      
+
+      
