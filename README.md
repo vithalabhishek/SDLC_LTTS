@@ -29,9 +29,11 @@ Name                     |  PS No.   | Features                         | Issues
 # CIBIL Score WorkFlow :
 
 
-![alt text](https://github.com/99003612/SDLC_LTTS/blob/main/CIBIL%20SCORE%20WORKFLOW.png)
+![alt text](https://github.com/99003612/SDLC_LTTS/blob/main/_CIBIL%20Score/CIBIL%20SCORE%20WORKFLOW.png)
 
 # High Level Design
+
+## Class Diagram
 
 ![alt text](https://github.com/99003612/SDLC_LTTS/blob/main/Class%20Diagram.png)
 
