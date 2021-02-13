@@ -1,49 +1,23 @@
 name: Git Inspector
 
-on: [push,pull_request]
+on: [push]
 
 jobs:
-  inspect:
+  check-quality:
     runs-on: ubuntu-latest
-
+    name: A job to check my code quality
     steps:
-    - uses: actions/checkout@v2
+    - name: Check code meets quality standards
+      id: code-inspector
+      uses: codeinspectorio/github-action@master
       with:
-        fetch-depth: '0'
-    - name: Install python
-      run: sudo apt -y install python
-      
-    - name: Install gitinspector
-      run: | 
-        pushd ~ &> /dev/null
-        git clone --depth=1 https://github.com/ejwa/gitinspector.git
-        cd gitinspector
-        echo "export PATH=$(pwd):"'$PATH' >> ~/.profile
-        popd &> /dev/null
-        
-    - name: Run gitinspector
-      run: |
-        source ~/.profile
-        export PYTHONIOENCODING=utf-8
-        gitinspector.py --version
-        echo "Running for commit : $GITHUB_SHA"
-        echo "============ Git Inspector ==========="
-        gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:_testPlan/ -x file:doc .
-        gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:_testPlan/ -x file:doc . > ~/result.html
-        echo "======================================"
-        
-    - name : Update Results to gh-pages
-      uses: actions/checkout@v2
-      with:
-        ref: gh-pages
-        
-    - name: Update Results to gh-pages
-      run: |
-        pwd
-        rm -f result.html
-        mv ~/result.html result.html
-        git config user.name "GitHub Actions"
-        git config user.email actions@github.com
-        git add result.html
-        git commit -m "[auto] Update Results for commit SHA $GITHUB_SHA"
-        git push
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        code_inspector_access_key: ${{ secrets.CODE_INSPECTOR_ACCESS_KEY }}
+        code_inspector_secret_key: ${{ secrets.CODE_INSPECTOR_SECRET_KEY }}
+        min_quality_grade: 'WARNING'
+        min_quality_score: '50'
+        max_defects_rate: '0.0001'
+        max_complex_functions_rate: '0.0001'
+        max_long_functions_rate: '0.0001'
+        project_name: ''
+        max_timeout_sec: '600'
