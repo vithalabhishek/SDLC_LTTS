@@ -1,7 +1,7 @@
 # SDLC_LTTS
 LTTS TRAINING PROJECT (SDLC)
 
-[![Code Grade](https://www.code-inspector.com/project/136/status/svg)](https://www.code-inspector.com/public/project/136/SDLC_LTTS/dashboard)
+[![Code Grade](https://www.code-inspector.com/project/18993/status/svg)] (https://frontend.code-inspector.com/public/project/18993/SDLC_LTTS/dashboard)
 
 Build | Cppcheck | Unity | [Git Inspector](https://99003612.github.io/SDLC_LTTS/result)
 ------|----------|-------|--------------
