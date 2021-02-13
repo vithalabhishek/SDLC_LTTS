@@ -5,7 +5,7 @@ LTTS TRAINING PROJECT (SDLC)
 
 Build | Cppcheck | Unity | [Git Inspector](https://99003592.github.io/Team2-TaskCalculator/result)
 ------|----------|-------|--------------
-![C/C++ CI](https://github.com/Pradumn-18/SDLC_LTTS/workflows/C/C++%20CI/badge.svg) | ![Cppcheck](https://github.com/Pradumn-18/SDLC_LTTS/workflows/Cppcheck/badge.svg) | ![Unit Test](https://github.com/Pradumn-18/SDLC_LTTS/workflows/Unit%20Test/badge.svg) | ![Git Inspector](https://github.com/99003612/SDLC_LTTS/workflows/Git%20Inspector/badge.svg)
+![C/C++ CI](https://github.com/Pradumn-18/SDLC_LTTS/workflows/C/C++%20CI/badge.svg) | ![Cppcheck](https://github.com/99003612/SDLC_LTTS/workflows/Cppcheck/badge.svg) | ![Unit Test](https://github.com/Pradumn-18/SDLC_LTTS/workflows/Unit%20Test/badge.svg) | ![Git Inspector](https://github.com/99003612/SDLC_LTTS/workflows/Git%20Inspector/badge.svg)
 
 # Folder Structure
 
