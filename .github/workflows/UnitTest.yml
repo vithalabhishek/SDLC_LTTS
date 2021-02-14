@@ -11,7 +11,7 @@ jobs:
     
    - name: Run Test
      run: |
-       cd _testPlan
+       cd _testPlan/code.cpp
        g++ code.cpp -o code
        ./code
       
